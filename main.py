@@ -9,7 +9,6 @@ from aiogram.dispatcher.filters import Text
 from config import BOT_TOKEN, token, secret
 from config_chat import * 
 
-import io, requests
 
 bot = Bot(token=BOT_TOKEN) 
 dp = Dispatcher(bot) 
