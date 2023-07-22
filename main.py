@@ -4,8 +4,6 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, Message, InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram import Bot, Dispatcher, executor, types
 from keyboards import start_menu
-from dadata import Dadata
-from bs4 import BeautifulSoup
 from aiogram.dispatcher.filters import Text 
 
 from config import BOT_TOKEN, token, secret
